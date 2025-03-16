@@ -1,0 +1,250 @@
+/* Mobile Phones */
+@media (max-width: 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        width: 400px;
+    }
+    .first_page{
+        width: 400px;
+        /* background-color: blue; */
+    }
+    .navbar{
+        width: 390px;
+        height: 6vh;
+        /* background-color: red; */
+    }
+    .navbar .left{
+        width: 25%;
+        /* background-color: aqua; */
+    }
+    .navbar .left .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .navbar .left span{
+        margin-left: .1em;
+        font-size: 12px;
+    }
+    .navbar .center{
+        width: 200px;
+        /* background-color: aquamarine; */
+    }
+    .navbar .center li{
+        font-size: 8px;
+        margin-right: 1vw;
+    }
+    .navbar .right{
+        padding: 0px;
+    }
+    .navbar .right button{
+        width: 50px;
+        height: 20px;
+        border-radius: 20px;
+        font-size: 3vw;
+        margin-right: 2vw;
+    }
+    .middle{
+        margin-top: 1vh;
+    }
+    .middle p{
+        font-size: 1.5vw;
+    }
+    .button button{
+        width: 50%;
+        height: 50%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .down{
+        padding: 0px;
+        flex-wrap: wrap;
+        padding: 0px 2vw;
+    }
+    .emoji{
+        position: absolute;
+        top: -9%;
+        left: 30%;
+    }
+    .frist_page .box1{
+        margin-top: 1vh;
+        height: 200px;
+        width: 100%;
+    }
+    .frist_page .box2{
+        margin-top: 1vh;
+        height: 200px;
+        width: 100%;
+    }
+    .frist_page .box3{
+        margin-top: 1vh;
+        height: 200px;
+        width: 100%;
+    }
+    .frist_page .box4{
+        margin-top: 1vh;
+        height: 200px;
+        width: 100%;
+    }
+    .frist_page .box5{
+        margin-top: 1vh;
+        height: 200px;
+        width: 100%;
+    }
+    /* Scound_page */
+    .second_page{
+        margin-top: 80vh;
+        padding: 0px 2vw;
+        background-color: white;
+    }
+    .second_page .header{
+        padding: 0px;
+    }
+    .second_page .header h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+        color: rgb(2, 66, 45);
+    }
+    .second_page .header p{
+        margin: 0px 17vw;
+        color: rgb(6, 83, 217);
+    }
+    .second_page .body .box1{
+        margin-bottom: 20px;
+        padding: 50px 30px;
+    }
+    .thard_page{
+        margin-top: 120vh;
+    }
+    /* Thard Page */
+    .thard_page{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .thard_page .left{
+        width: 100%;
+        padding: 5% 8%;
+        background-color: #c2c4c5;
+    }
+    .thard_page .left .box1{
+        padding: 0px 30px;
+    }
+    .thard_page .left .popup_box{
+        width: 180px;
+        height: 160px; 
+        padding: 20px;
+    }
+    .thard_page .left .line .box_1{
+        width: 30px;
+        height: 70%;
+        background-color: #0c363c;
+        border-radius: 5px;
+    }
+    .thard_page .right{
+        width: 100%;
+        padding: 20px;
+    }
+    .thard_page .right h1{
+        font-size: 20px;
+    }
+    /* Fourth Page */
+    .fourth_page{
+        margin-top: 45vh;
+        padding: 0px;
+        height: 200vh;
+        padding: 10px;
+    }
+    .fourth_page .heading{
+        padding: 0px;
+    }
+    .fourth_page .heading h1{
+        font-size: 30px; 
+        text-align: center;
+    }
+    .fourth_page .body .box1{
+        padding: 20px;
+    }
+    .fourth_page .body{
+        padding: 0px;
+    }
+    .fourth_page .body .fotter{
+        padding: 0px;
+    }
+    .fourth_page .body .fotter button{
+        width: 120px;
+        height: 40px;
+        
+    }
+    /* Fifth Page */
+    .fifth_page{
+        margin-top: 10vh;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .fifth_page .left{
+        width: 100%;
+        height: 50%;
+        padding: 0px 1em;
+        /* background-color: #0c363c; */
+    }
+    .fifth_page .left h1{
+        font-size: 25px;
+    }
+    .fifth_page .right{
+        padding: 10px;
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        
+    }
+    .last_page{
+        margin-top: 5vh;
+        height: 100vh;
+    }
+    .last_page .up_page{
+        padding: 0px 10px;
+    }
+    .last_page .up_page{
+        padding: 0px;
+    }
+    .last_page .up_page h1{
+        font-size: 20px;
+    }
+    .last_page .up_page p{
+        font-size: 15px;
+    }
+    .last_page .down_page{
+        height: 100vh;
+        width: 100%;
+        background-color: #010f12;
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .last_page .down_page h3{
+        color: rebeccapurple;
+    }
+    .last_page .fotter{
+        padding: 0px;
+        font-size: 10px;
+        height: 10%;
+    }
+    .last_page .fotter .left{
+        
+    }
+}
+  
+  /* Tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+  }
+  
+  /* Desktops */
+  @media (min-width: 1025px) {
+  }
