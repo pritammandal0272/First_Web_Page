@@ -243,7 +243,283 @@
   
   /* Tablets */
   @media (min-width: 768px) and (max-width: 1024px) {
-  }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        height: 390vh;
+    }
+    .first_page{
+        width: 400px;
+        /* background-color: blue; */
+    }
+    .navbar{
+        width: 100%;
+        height: 6vh;
+        /* background-color: red; */
+    }
+    .navbar .left{
+        width: 25%;
+        /* background-color: aqua; */
+    }
+    .navbar .left .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar .left span{
+        margin-left: .5em;
+        font-size: 20px;
+    }
+    .navbar .center{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+    .navbar .center li{
+        font-size: 15px;
+        margin-right: 1vw;
+        margin-left: 20px;
+    }
+    .navbar .right{
+        width: 25%;
+        padding: 0px;
+        /* background-color: red; */
+    }
+    .navbar .right button{
+        width: 120px;
+        height: 90p%;
+        border-radius: 20px;
+        font-size: 3vw;
+        margin-right: 2vw;
+        font-size: 15px;
+    }
+    .middle{
+        margin-top: 1vh;
+    }
+    .middle p{
+        font-size: 1.5vw;
+    }
+    .button{
+        margin-top: 0px;
+        align-items: start;
+        height: 5vh;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .button button{
+        width: 20%;
+        height: 30%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .down{
+        flex-wrap: wrap;
+        padding: 0px 2vw;
+        gap: 5%;
+        /* background-color: #0c363c; */
+        position: absolute;
+        top: 20vh;
+    }
+    .emoji{
+        position: absolute;
+        top: -6%;
+        left: 42%;
+        /* background-color: #0c363c; */
+    }
+    .frist_page .box1{
+        height: 60%;
+        width: 47%;
+    }
+    .frist_page .box2{
+        height: 60%;
+        width: 47%;
+    }
+    .frist_page .box3{
+        height: 60%;
+        width: 47%;
+        box-shadow: 0px 0px 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    .frist_page .box4{
+        height: 60%;
+        width: 47%;
+    }
+    .frist_page .box5{
+        height: 60%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Scound_page */
+    .second_page{
+        margin-top: 40vh;
+        height: 72vh;
+        padding: 0px 2vw;
+        background-color: rgb(2, 66, 45);
+    }
+    .second_page .header{
+        padding: 0px 20%;
+        /* background-color: #010f12; */
+        height: 10vh;
+    }
+    .second_page .header h1{
+        font-size: 35px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .second_page .header p{
+        font-size: 15px;
+        color: white;
+    }
+    .second_page .body{
+        row-gap: .5%;
+        height: 45vh;
+    }
+    .second_page .body .box1{
+        margin-bottom: 20px;
+        padding: 50px 30px;
+    }
+    /* Thard Page */
+    .thard_page{
+        height: 100vh;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .thard_page .left{
+        width: 100%;
+        padding: 7% 10%;
+        background-color: #c2c4c5;
+    }
+    .thard_page .left .box1{
+        padding: 5% 10%;
+    }
+    .thard_page .left .popup_box{
+        top: 60%;
+        width: 400px;
+        height: 320px; 
+        padding: 20px;
+    }
+    .thard_page .left .line .box_1{
+        width: 30px;
+        height: 70%;
+        background-color: #0c363c;
+        border-radius: 5px;
+    }
+    .thard_page .left .line .box_1{
+        width: 60px;
+        height: 10vh;
+        background-color: #0c363c;
+        border-radius: 10px;
+    }
+    .thard_page .right{
+        width: 100%;
+        padding: 10%;
+        height: 50%;
+    }
+    .thard_page .right h1{
+        font-size: 40px;
+    }
+    /* Fourth Page */
+    .fourth_page{
+        padding: 10px;
+        height: 60vh;
+    }
+    .fourth_page .heading{
+        padding: 0px 10em;
+    }
+    .fourth_page .heading h1{
+        margin-top: 1em;
+        font-size: 40px; 
+        text-align: center;
+    }
+    .fourth_page .body .box1{
+        padding: 30px;
+        width: 45%;
+        height: 25vh;
+        row-gap: 0px;
+    }
+    .fourth_page .body{
+        padding: 0px;
+    }
+    .fourth_page .body .fotter{
+        padding: 0px;
+        margin-bottom: 2em;
+    }
+    .fourth_page .body .fotter button{
+        width: 120px;
+        height: 40px;
+        
+    }
+    /* Fifth Page */
+    .fifth_page{
+        margin-top: 1vh;
+        height: 45vh;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+    .fifth_page .left{
+        margin-top: 5%;
+        width: 100%;
+        height: 30%;
+        padding: 0px 4em;
+        /* background-color: #0c363c; */
+    }
+    .fifth_page .left h1{
+        font-size: 55px;
+    }
+    .fifth_page .right{
+        padding: 10%;
+        margin-top: 30px;
+        width: 100%;
+        height: 500px;
+        
+    }
+    .last_page{
+        height: 50vh;
+    }
+    .last_page .up_page{
+        height: 20vh;
+        padding: 20px 10px;
+    }
+    .last_page .up_page h1{
+        font-size: 40px;
+    }
+    .last_page .up_page p{
+        font-size: 17px;
+    }
+    .last_page .down_page{
+        height: 30vh;
+        width: 100%;
+        background-color: #010f12;
+        padding: 0px 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+    }
+    .last_page .down_page h3{
+        color: rebeccapurple;
+    }
+    .last_page .fotter{
+        padding: 0px;
+        font-size: 10px;
+        height: 10%;
+    }
+    .last_page .fotter .left{
+        
+    }
+}
   
   /* Desktops */
   @media (min-width: 1025px) {
